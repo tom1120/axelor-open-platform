@@ -18,6 +18,13 @@ def repos = {
 
 ext.repos = repos
 
+ext{
+  mavenUsername='admin'
+  mavenPassword='zy42899975'
+  mavenRepository='http://192.168.99.14:8081/repository/maven-snapshots/'
+
+}
+
 repositories repos
 buildscript.repositories repos
 
